@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>St Alphonsus Primary School</title>
 
 </head>
@@ -11,10 +12,11 @@
         <h1>Welcome to St Alphonsus Primary School</h1>
         <nav>
             <ul>
-                <li><a href="/HTML/about.html">About Us</a></li>
+                <li><a href="HTML/about.html">About Us</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#events">Events</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="login.php">Staff Login</a></li>
             </ul>
         </nav>
     </header>
@@ -23,7 +25,7 @@
         <section id="aboutBrief">
             <h2>About Our School</h2>
             <p>Alphonsus Primary School is dedicated to providing a nurturing and stimulating environment for children to learn and grow.</p>
-            <img src="/images/school-building.jpg" width="50px" height="50px" alt="Our School Building">
+            <img src="images/school-building.jpg" width="25%" height="25%" alt="Our School Building">
         </section>
         
         <section id="news">
@@ -39,6 +41,7 @@
     
     <footer>
         <section id="contact">
+            
             <h2>Contact Us</h2>
             <p>Email: <a href="mailto:info@stalphonsusprimary.com">info@stalphonsusprimary.com</a></p>
             <p>Phone: (123) 456-7890</p>
